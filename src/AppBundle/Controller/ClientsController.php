@@ -17,7 +17,7 @@ class ClientsController extends Controller
     public function showIndex()
     {
         
-        
+        return $this->render('clients/index.html.twig');
         
     }
 

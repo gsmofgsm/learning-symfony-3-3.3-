@@ -15,6 +15,7 @@ class ReservationsController extends Controller
     public function showIndex()
     {
 
+        return $this->render('reservations/index.html.twig');
         
     }
     
