@@ -10,7 +10,7 @@ class AdminController extends Controller
 {
 
     /**
-     * @Route("/")
+     * @Route("/", name="home")
      */
     public function showIndex()
     {
