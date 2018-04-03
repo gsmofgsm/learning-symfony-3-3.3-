@@ -14,6 +14,6 @@ class AdminController extends Controller
      */
     public function showIndex()
     {
-        return new Response('<html><body>Landon Hotel App</body></html>');
+        return $this->render('admin/index.html.twig');
     }
 }
